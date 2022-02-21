@@ -73,9 +73,9 @@
   \end{center}
 \end{frame}
 
-\subsection{Summary of current LHCb analysis progression}
+\subsection{Summary of LHCb analysis status}
 
-\begin{frame}{LHCb analysis summary}
+\begin{frame}{Summary of LHCb analysis status}
   \begin{itemize}
     \setlength\itemsep{0.5em}
     \item{Previously on $\gamma$ measurement in $B^\pm\to Dh^\pm$, $D\to K^+K^-\pi^+\pi^-$:}
@@ -117,7 +117,7 @@
   \begin{itemize}
     \setlength\itemsep{0.5em}
     \item{BESIII data needed to determine this sign!}
-    \item{Reconstruct $KK\pi\pi$ vs $K_S\pi\pi$ double tags:}
+    \item{Reconstruct $KK\pi\pi$ vs $K_{S,L}\pi\pi$ double tags:}
   \end{itemize}
   \begin{center}
     $M_{i, j}\propto\big(K_iK^\prime_{-j} + K_{-i}K^\prime_j - 2\sqrt{K_iK_{-i}K^\prime_jK^\prime_{-j}}(c_ic^\prime_j + s_is^\prime_j)\big)$
@@ -219,7 +219,7 @@
   \begin{itemize}
     \setlength\itemsep{0.5em}
     \item{$D\to K_S\omega$ is CP even}
-    \item{CP-odd contamination from non-resonant $D\to K_S\pi\pi\pi^0$}
+    \item{CP-even contamination from non-resonant $D\to K_S\pi\pi\pi^0$}
     \begin{itemize}
       \item{$F_+(K_S\pi\pi\pi^0) = 0.238\pm0.012\pm0.012$ from CLEO}
     \end{itemize}
@@ -278,15 +278,17 @@
     \includegraphics[width = 0.5\textwidth]{Plots/KaonTrackingEfficiency.png}
   \end{figure}
   \begin{itemize}
-    \item{Likely explanation: Softer kaon momentum $\to$ Kaons get stuck inside tracker}
+    \item{Likely explanation: Softer kaons $\to$ Kaons get stuck inside tracker}
   \end{itemize}
 \end{frame}
 
 \begin{frame}{$F_+$ measurement with $K_S\pi\pi$ tag}
   \begin{itemize}
+    \setlength\itemsep{1.0em}
     \item{Solution: Partially reconstructed $KK\pi\pi$}
     \item{Strategy:}
     \begin{enumerate}
+      \setlength\itemsep{0.5em}
       \item{Reconstruct $D\to K_S\pi\pi$}
       \item{Require 3 remaining good tracks consistent with $K\pi\pi$}
       \item{Use missing mass to reconstruct missing kaon}
@@ -299,7 +301,7 @@
     \hline
     $K_S\pi\pi$ (fully reconstructed)        & $67.2$          & $6.63 \pm 0.04$ \\
     $K_S\pi\pi$ (partially reconstructed)    & $85.9$          & $6.50 \pm 0.03$ \\
-    $K_L\pi\pi$ (partially reconstructed)    & $158.7$         & $7.29 \pm 0.04$ \\
+    $K_L\pi\pi$ (partially reconstructed)    & $176.9$         & $7.29 \pm 0.04$ \\
     \hline
   \end{tabular}
 \end{frame}
@@ -332,6 +334,22 @@
     \includegraphics[width = 0.8\textwidth]{Plots/CPeven_fraction_combination_KSpipi.png}
   \end{figure}
 \end{frame}
+
+\begin{frame}{Combination of $F_+$ measurements}
+  \begin{figure}
+    \includegraphics[width = 0.8\textwidth]{Plots/FPlus_combination_comparison.png}
+  \end{figure}
+\end{frame}
+
+\begin{frame}{Next step: Include $K_L\pi\pi$ as well}
+  \begin{itemize}
+    \item{Irreducible background from $K_S\pi\pi$ with $K_S\to\pi^0\pi^0$}
+    \item{$K_S\pi\pi$ has opposite quantum correlation which must be accounted for}
+  \end{itemize}
+  \begin{figure}
+    \includegraphics[width = 0.8\textwidth]{Plots/KLpipi_Inclusive_DoubleTagYield.png}
+  \end{figure}
+\end{frame}
   
 
 \section{Summary}
@@ -353,8 +371,8 @@
       \item{$F_+$ measurement performed in $KK\pi\pi$ vs $K_S\pi\pi$ binned analysis}
       \item{Next steps:}
       \begin{itemize}
-        \item{Add CP tags $K_L\pi^0\pi^0$, $K_L\omega$ to $F_+$ combination}
         \item{Perform $F_+$ measurement with $K_L\pi\pi$}
+        \item{Add CP tags $K_L\pi^0\pi^0$, $K_L\omega$ to $F_+$ combination}
       \end{itemize}
     \end{itemize}
   \end{itemize}
